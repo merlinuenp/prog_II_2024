@@ -1,7 +1,7 @@
 package com;
 
 /**
- *
+ * Primeiro Programa em Java
  * @author José
  */
 public class Prog_II_2024 {
