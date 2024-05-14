@@ -6,12 +6,12 @@ public class Aluno {
     String nome;
     int matricula;
     
-    Aluno(){
+    public Aluno(){
         nome = "";
         matricula = 0; 
     }
     
-    Aluno(String nome, int matricula){
+    public Aluno(String nome, int matricula){
         this.nome = nome;
         this.matricula = 0; 
     }
