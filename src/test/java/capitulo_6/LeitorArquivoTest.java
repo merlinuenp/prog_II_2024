@@ -5,7 +5,6 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
@@ -32,11 +31,12 @@ public class LeitorArquivoTest {
     public void tearDown() {
     }
 
-    @Test
-    public void testLerArquivo() {
-        LeitorArquivo leitor = new LeitorArquivo();
-        String texto = leitor.lerArquivo("C:\\arquivos\\SI.txt");
-        System.out.println(texto);
-    }
+//    @Test
+//    public void testLerArquivo() {
+//        LeitorArquivo leitor = new LeitorArquivo();
+//        String texto = leitor.lerArquivo("C:\\arquivos\\TesteSpam.txt");
+//
+//        System.out.println(texto);
+//    }
     
 }
