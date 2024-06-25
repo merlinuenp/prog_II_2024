@@ -1,7 +1,6 @@
 
 package capitulo_7;
 
-
 public class Caminhao extends Veiculo {
     private Integer capacidadeCarga;
     
@@ -15,9 +14,7 @@ public class Caminhao extends Veiculo {
         this.capacidadeCarga = capacidadeCarga; 
     }
     
-    public Double calcularIpva(){
-        
-        
+    public Double calcularIpva(){              
         if ( 2024 - getAno() > 20){
            return 0.0; 
         }  

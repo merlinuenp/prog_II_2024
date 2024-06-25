@@ -1,4 +1,3 @@
-
 package capitulo_7;
 
 
@@ -20,9 +19,6 @@ public class CaminhaoBiTrem extends Caminhao {
     
     @Override
     public Double calcularIpva(){
-        
-        System.out.println("Executou do caminhão bi trem");
-        
         if ( 2024 - getAno() > 20 ){
             return 0.0;
         }
